@@ -1,0 +1,156 @@
+body {
+    background-image: linear-gradient(to right, #E8DAEF, #F5B7B1);
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    border: none;
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.list-group-item a:hover {
+    color: #555;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.containerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 140vh; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra horizontalmente el formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Cambia el color de fondo según tus preferencias */
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-top: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Ajusta la distancia entre el texto y el icono */
+}
+
+.username {
+    margin-right: 5px; /* Ajusta la distancia entre el texto y el icono */
+}
+
+.slider-container {
+    max-width: 1000px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra horizontalmente el slider */
+}
+
+.slider-container .carousel-inner {
+    max-height: 500px; /* Ajusta la altura máxima según tus preferencias */
+}
+
+.slider-container .carousel-item img {
+    object-fit: fill; /* Ajusta la forma en que se muestra la imagen */
+    height: 100%; /* Utiliza el 100% de la altura del contenedor */
+    width: 100%; /* Utiliza el 100% del ancho del contenedor */
+}
+
+#totalGeneral {
+    font-size: 18px; /* Cambia el tamaño del texto del total */
+    text-align: center; /* Centra horizontalmente el texto del total */
+} 
